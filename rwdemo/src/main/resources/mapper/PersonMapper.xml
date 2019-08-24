@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lhy.mapper.PersonMapper">
+
+
+    <select id="findAll" resultType="com.lhy.mapper.Person">
+        SELECT
+        id AS id,
+        name AS name,
+        age AS age
+        FROM person
+    </select>
+
+    <insert id="add" useGeneratedKeys="true" parameterType="com.lhy.mapper.Person">
+        INSERT INTO person(name,age) VALUES (#{name},#{age})
+    </insert>
+</mapper>
