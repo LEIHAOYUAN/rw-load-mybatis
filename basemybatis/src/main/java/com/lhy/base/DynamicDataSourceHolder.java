@@ -1,4 +1,4 @@
-package com.lhy.base.interceptor;
+package com.lhy.base;
 
 public class DynamicDataSourceHolder {
 

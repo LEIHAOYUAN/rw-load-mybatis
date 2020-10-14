@@ -1,5 +1,6 @@
-package com.lhy.base.interceptor;
+package com.lhy.base.config;
 
+import com.lhy.base.interceptor.DynamicDatasourceInterceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

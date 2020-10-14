@@ -1,4 +1,4 @@
-package com.lhy.base.interceptor;
+package com.lhy.base;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
