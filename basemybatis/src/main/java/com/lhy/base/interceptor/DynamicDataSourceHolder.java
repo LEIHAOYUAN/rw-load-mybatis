@@ -1,9 +1,10 @@
 package com.lhy.base.interceptor;
 
-import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
+import sun.rmi.runtime.Log;
 
-public class DynamicDataSourceHolder {
+
+public cass DynamicDataSourceHolder {
 
     private static final Log log = LogFactory.getLog(DynamicDataSourceHolder.class);
 
