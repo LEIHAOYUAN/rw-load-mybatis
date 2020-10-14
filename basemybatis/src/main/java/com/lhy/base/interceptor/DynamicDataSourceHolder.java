@@ -1,12 +1,6 @@
 package com.lhy.base.interceptor;
 
-import org.apache.ibatis.logging.LogFactory;
-import sun.rmi.runtime.Log;
-
-
-public cass DynamicDataSourceHolder {
-
-    private static final Log log = LogFactory.getLog(DynamicDataSourceHolder.class);
+public class DynamicDataSourceHolder {
 
     public static final String DB_MASTER = "master";
 
