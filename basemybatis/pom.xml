@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>base-mybatis</name>
-    <description>mybatis拦截器实现基于事务读写分离</description>
+    <description>mybatis拦截器实现基于事务自动读写分离</description>
 
     <developers>
         <developer>
@@ -22,13 +22,17 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <mybatis.version>3.5.1</mybatis.version>
+        <spring-tx.version>5.1.9.RELEASE</spring-tx.version>
+        <spring-jdbc.version>5.1.9.RELEASE</spring-jdbc.version>
+        <spring-context.version>5.1.9.RELEASE</spring-context.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.5.1</version>
+            <version>${mybatis.version}</version>
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
@@ -36,7 +40,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
-            <version>5.1.9.RELEASE</version>
+            <version>${spring-tx.version}</version>
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
@@ -44,7 +48,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>5.1.9.RELEASE</version>
+            <version>${spring-jdbc.version}</version>
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
@@ -52,7 +56,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.1.9.RELEASE</version>
+            <version>${spring-context.version}</version>
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
