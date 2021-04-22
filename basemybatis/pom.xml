@@ -22,7 +22,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <mybatis.version>3.5.1</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <spring-tx.version>5.1.9.RELEASE</spring-tx.version>
         <spring-jdbc.version>5.1.9.RELEASE</spring-jdbc.version>
         <spring-context.version>5.1.9.RELEASE</spring-context.version>
